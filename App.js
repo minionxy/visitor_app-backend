@@ -26,4 +26,4 @@ app.post("/viewall",(req,res)=>{
     ).catch()
    
 })
-app.listen(4000,(error)=>{console.log("server running"+error)})
+app.listen(4000,(error)=>{console.log("server running "+error)})
